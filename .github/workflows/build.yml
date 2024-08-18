@@ -21,4 +21,4 @@ jobs:
         java-version: '11'
 
     - name: Run Maven build
-      run: mvn clean test
+      run: mvn clean test -Ddistribution=your_distribution_value
